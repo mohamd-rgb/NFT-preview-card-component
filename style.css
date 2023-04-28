@@ -1,0 +1,92 @@
+body{
+background-color:hsl(217, 54%, 11%) ;
+font-family: Outfit;
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: min-content;
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 20px;
+    box-shadow: 0px 20px 30px;
+}
+.container{
+    width : 290px;
+    height: 290px;
+    position: relative;
+    background: hsl(178, 100%, 50%);
+    border-radius: inherit;
+}
+.eqiulibrium{
+    object-fit: cover;
+    width: 290px;
+    border-radius: 17px;
+    transition: 0.5s;
+    opacity: 1;
+    cursor: pointer;
+}
+.view{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    transition: 0.5s;
+    opacity: 0;
+    cursor: pointer;
+}
+.container:hover img{
+    opacity: 0.5;
+}
+.container:hover .view{
+    opacity: 1;
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+    text-align: start;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+p {
+    color: hsl(215, 51%, 70%);
+    text-align: start;
+    font-size: 18px;
+    font-weight: 300;
+}
+h3{
+    display: inline;
+}
+.one{
+    color: hsl(178, 100%, 50%);
+    margin-right: 76px;
+}
+.two{
+    color: hsl(215, 51%, 70%);
+}
+.creation{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    padding-top: 10px;
+    text-align: center;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    width: 25px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+span{
+    color: hsl(0, 0%, 100%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+span:hover{
+    color: hsl(178, 100%, 50%);
+}
